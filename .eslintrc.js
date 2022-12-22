@@ -14,6 +14,9 @@ module.exports = {
   plugins: ["react"],
   rules: {
     quotes: 0,
+    "no-unused-vars": ["warn", { args: "after-used" }],
+    "react/no-unescaped-entities": 0,
+    "no-template-curly-in-string": ["warn", { args: "after-used" }],
     "react/no-unescaped-entities": 0,
     "eslintreact/no-danger": 0,
     "react/jsx-max-props-per-line": 0,
